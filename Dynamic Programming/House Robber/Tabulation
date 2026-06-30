@@ -24,3 +24,7 @@ public:
         return dp[nums.size() - 1];
     }
 };
+
+
+//Time Complexity: O(n) - Each house is processed once, and the results are stored in the dp array to avoid redundant calculations
+//Space Complexity: O(n) for dp array
