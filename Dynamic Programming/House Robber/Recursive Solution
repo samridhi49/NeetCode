@@ -17,3 +17,6 @@ public:
         return f(nums, nums.size() - 1);
     }
 };
+
+//Time Complexity: O(2^n) - Each house has two choices (pick or not pick), leading to an exponential number of combinations
+//Space Complexity: O(n) for recursion stack
