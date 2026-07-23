@@ -16,6 +16,7 @@ public:
 
         return dp[index] = max(pick, not_pick);
     }
+    
     int rob(vector<int>& nums) {
         vector<int> dp(nums.size() + 1, -1);
         return f(nums, nums.size() - 1, dp);
